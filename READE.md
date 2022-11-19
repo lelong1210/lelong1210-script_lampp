@@ -1,1 +1,0 @@
-run sudo ./script_main
