@@ -1,0 +1,8 @@
+#! /bin/bash
+PASSWORD=$1
+now=$(date +%s)
+#backup sql
+mysqldump -u root -p${PASSWORD} --all-databases > ${now}xinchao.sql
+#backup code
+zip -r ${now}html.zip /var/www/html/
+

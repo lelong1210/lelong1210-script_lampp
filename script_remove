@@ -1,0 +1,19 @@
+#! /bin/bash
+PASSWORD=$1
+#remove phpmyadmin
+apt -y purge phpmyadmin
+rm -r /var/www/html/phpmyadmin
+#remove mysql
+mysql -u root -p$PASSWORD -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '';"
+service mysql stop
+apt -y --purge mysql*
+apt -y purge mysql*
+apt remove dbconfig-mysql
+#remove apache2
+service apache2 stop
+apt -y purge apache2
+#remove php
+apt -y purge php*
+#clear 
+apt -y autoremove
+apt -y autoclean

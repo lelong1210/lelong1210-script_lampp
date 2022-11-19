@@ -1,0 +1,10 @@
+#!/bin/bash
+#password
+PASSWORD='12345678'
+SERVICE_STATUS_APACHE2=$(service apache2 status)
+SERVICE_STATUS_MYSQL=$(service mysql status)
+if [[ $SERVICE_STATUS_APACHE2 == *"active"* && $SERVICE_STATUS_MYSQL == *"active"* ]]; then
+  ./script_gui_status $PASSWORD
+else 
+  ./script_gui_install $PASSWORD
+fi

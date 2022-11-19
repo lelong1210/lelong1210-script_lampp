@@ -1,0 +1,7 @@
+#! /bin/bash
+PASSWORD=$1
+cp script_back_up ~/
+echo "* 0 * * * /bin/bash script_back_up ${PASSWORD}"> backup_file
+echo "* * * * * grep giuaKy /var/log/apache2/access.log > /var/www/html/log" >> backup_file
+crontab -u $USER backup_file
+

@@ -1,0 +1,5 @@
+#! /bin/bash
+PASSWORD=$1
+if (whiptail --title "LAMPP NOT INSTALL" --yesno "ARE YOU WANT INSTALL LAMPP \nWITH PASSWORD MYSQL OF ROOT IS: ${PASSWORD}" 10 60) then
+   ./script_install $PASSWORD
+fi
