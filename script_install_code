@@ -1,5 +1,5 @@
 #! /bin/bash
-cp -r giuaKy /var/www/html/
+cp -r CodeWebsite /var/www/html/www
 a2enmod rewrite
 mv /etc/apache2/apache2.conf /etc/apache2/apache2.conf.backup.by.lql
-cp apache2.conf /etc/apache2/apache2.conf
+cp Config/apache2.conf /etc/apache2/apache2.conf

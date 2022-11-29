@@ -2,10 +2,19 @@
 PASSWORD=$1
 SERVICE_STATUS_APACHE2=$(service apache2 status)
 SERVICE_STATUS_MYSQL=$(service mysql status)
+
+HEIGHT=25
+WEIGHT=80
+ROW_OPTION=3
 # get ip 
 IP_IN_HOST=$(hostname -I)
-SUB_DOMAIN_LOG_OF_ACCESS_WEBSITE=$(./script_ip $IP_IN_HOST)
+#set access log
+SUB_DOMAIN_LOG_OF_ACCESS_WEBSITE=$(./script_ip_access_log $IP_IN_HOST)
 RESULT_IP_ACCESS=$(cat TMP)
+rm TMP
+#set access phpmyadmin
+SUB_DOMAIN_LOG_OF_ACCESS_PHPMYADMIN=$(./script_ip_access_phpmyadmin $IP_IN_HOST)
+RESULT_IP_ACCESS_PHPMYADMIN=$(cat TMP)
 rm TMP
 clear
 
@@ -22,8 +31,10 @@ else
 fi
 
 OPTION=$(whiptail --title "Status LAMPP" --menu "APACH2 $SERVICE_STATUS_APACHE2 \nMYSQL $SERVICE_STATUS_MYSQL \
-    \nAccess Log\n$RESULT_IP_ACCESS" \
-    15 60 3 \
+    \nAccess Log\n$RESULT_IP_ACCESS\
+    \nManage Mysql\n$RESULT_IP_ACCESS_PHPMYADMIN\
+    \nRun Command: code to run vscode" \
+    $HEIGHT $WEIGHT $ROW_OPTION \
     "1" "STOP" \
     "2" "START" \
     "3"  "REMOVE" 3>&1 1>&2 2>&3)
