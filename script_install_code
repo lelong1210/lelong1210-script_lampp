@@ -1,5 +1,6 @@
 #! /bin/bash
 cp -r CodeWebsite /var/www/html/www
+chmod -R 777 /var/www/html/
 a2enmod rewrite
 mv /etc/apache2/apache2.conf /etc/apache2/apache2.conf.backup.by.lql
 cp Config/apache2.conf /etc/apache2/apache2.conf

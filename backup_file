@@ -1,2 +1,2 @@
 * 0 * * * /bin/bash script_back_up 12345678
-* * * * * grep giuaKy /var/log/apache2/access.log > /var/www/html/log
+* * * * * grep www /var/log/apache2/access.log > /var/www/html/log

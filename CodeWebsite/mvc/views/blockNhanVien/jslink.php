@@ -1,30 +1,30 @@
 <!-- jQuery  -->
-<script src="http://localhost/www/publicNhanVien/js/jquery.min.js"></script>
-<script src="http://localhost/www/publicNhanVien/js/bootstrap.bundle.min.js"></script>
-<script src="http://localhost/www/publicNhanVien/js/metismenu.min.js"></script>
-<script src="http://localhost/www/publicNhanVien/js/jquery.slimscroll.js"></script>
-<script src="http://localhost/www/publicNhanVien/js/waves.min.js"></script>
+<script src="/www/publicNhanVien/js/jquery.min.js"></script>
+<script src="/www/publicNhanVien/js/bootstrap.bundle.min.js"></script>
+<script src="/www/publicNhanVien/js/metismenu.min.js"></script>
+<script src="/www/publicNhanVien/js/jquery.slimscroll.js"></script>
+<script src="/www/publicNhanVien/js/waves.min.js"></script>
 
-<script src="http://localhost/www/publicNhanVien/plugins/apexchart/apexcharts.min.js"></script>
-<script src="http://localhost/www/publicNhanVien/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/www/publicNhanVien/plugins/apexchart/apexcharts.min.js"></script>
+<script src="/www/publicNhanVien/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 
 <!--Morris Chart-->
-<script src="http://localhost/www/publicNhanVien/plugins/morris/morris.min.js"></script>
-<script src="http://localhost/www/publicNhanVien/plugins/raphael/raphael.min.js"></script>
+<script src="/www/publicNhanVien/plugins/morris/morris.min.js"></script>
+<script src="/www/publicNhanVien/plugins/raphael/raphael.min.js"></script>
 
-<script src="http://localhost/www/publicNhanVien/pages/dashboard.init.js"></script>
+<script src="/www/publicNhanVien/pages/dashboard.init.js"></script>
 
 
 
 
 <!-- Jquery-Ui -->
-<script src="http://localhost/www/publicNhanVien/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="/www/publicNhanVien/plugins/jquery-ui/jquery-ui.min.js"></script>
 
-<script src="http://localhost/www/publicNhanVien/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/www/publicNhanVien/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 
-<script src="http://localhost/www/publicNhanVien/plugins/moment/moment.js"></script>
-<script src='http://localhost/www/publicNhanVien/plugins/fullcalendar/js/fullcalendar.min.js'></script>
-<script src="http://localhost/www/publicNhanVien/pages/calendar-init.js"></script>
+<script src="/www/publicNhanVien/plugins/moment/moment.js"></script>
+<script src='/www/publicNhanVien/plugins/fullcalendar/js/fullcalendar.min.js'></script>
+<script src="/www/publicNhanVien/pages/calendar-init.js"></script>
 
 
 <!-- Required datatable js -->
@@ -47,6 +47,6 @@
 <script src="/www/publicNhanVien/pages/datatables.init.js"></script>
 
 <!-- App js -->
-<script src="http://localhost/www/publicNhanVien/js/app.js"></script>
+<script src="/www/publicNhanVien/js/app.js"></script>
 <!-- custom js -->
-<script src="http://localhost/www/publicNhanVien/js/mainCustom.js"></script>
+<script src="/www/publicNhanVien/js/mainCustom.js"></script>

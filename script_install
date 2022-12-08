@@ -21,4 +21,4 @@ apt install zip -y
 # install snapd
 apt install snapd
 # install vscode
-sudo apt install snapd
+snap install code --classic

@@ -4,16 +4,16 @@
 <title>Admin</title>
 <meta content="Responsive admin theme build on top of Bootstrap 4" name="description" />
 <meta content="Themesdesign" name="author" />
-<link rel="shortcut icon" href="http://localhost/www/public/images/logo/logo.jpg">
+<link rel="shortcut icon" href="/www/public/images/logo/logo.jpg">
 
-<link href="http://localhost/www/publicAdmin/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+<link href="/www/publicAdmin/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
 
 <!--Morris Chart CSS -->
-<link rel="stylesheet" href="http://localhost/www/publicAdmin/plugins/morris/morris.css">
+<link rel="stylesheet" href="/www/publicAdmin/plugins/morris/morris.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 <!--calendar css-->
-<link href="http://localhost/www/publicAdmin/plugins/fullcalendar/css/fullcalendar.min.css" rel="stylesheet" />
+<link href="/www/publicAdmin/plugins/fullcalendar/css/fullcalendar.min.css" rel="stylesheet" />
 
 
 <!-- DataTables -->
@@ -23,11 +23,11 @@
 <!-- Responsive datatable examples -->
 <link href="/www/publicAdmin/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
-<link href="http://localhost/www/publicAdmin/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="http://localhost/www/publicAdmin/css/metismenu.min.css" rel="stylesheet" type="text/css">
-<link href="http://localhost/www/publicAdmin/css/icons.css" rel="stylesheet" type="text/css">
-<link href="http://localhost/www/publicAdmin/css/style.css" rel="stylesheet" type="text/css">
-<link href="http://localhost/www/publicAdmin/css/styleCustom.css" rel="stylesheet" type="text/css">
+<link href="/www/publicAdmin/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/www/publicAdmin/css/metismenu.min.css" rel="stylesheet" type="text/css">
+<link href="/www/publicAdmin/css/icons.css" rel="stylesheet" type="text/css">
+<link href="/www/publicAdmin/css/style.css" rel="stylesheet" type="text/css">
+<link href="/www/publicAdmin/css/styleCustom.css" rel="stylesheet" type="text/css">
 
 
 
